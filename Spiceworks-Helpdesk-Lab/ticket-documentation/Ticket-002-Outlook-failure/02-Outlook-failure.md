@@ -89,7 +89,7 @@ This approach avoids the traditional email attachment size restriction while all
 
 ---
 
-## 7. Final Resolution Summary
+## 5. Final Resolution Summary
 
 | Item | Result |
 |---|---|

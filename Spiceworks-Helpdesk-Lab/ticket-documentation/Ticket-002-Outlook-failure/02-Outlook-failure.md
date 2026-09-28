@@ -1,21 +1,7 @@
 
 # Ticket #002: Outlook Email Failure — Large Attachment
 
-## 1. Ticket Information
-
-| Field | Details |
-|---|---|
-| Ticket ID | #002 |
-| Summary | Unable to Send Email with Large Attachment |
-| Category | Software / Email |
-| Priority | Medium |
-| Status | Resolved |
-| Application | Microsoft Outlook |
-| Cloud Storage | Microsoft OneDrive |
-| Ticketing System | Spiceworks |
-| Issue Type | Email Attachment Size Limit |
-
-## 2. Problem Description
+## 1. Problem Description
 
 An employee contacted IT Support after experiencing difficulties sending an email through Microsoft Outlook.
 
@@ -31,7 +17,7 @@ A ticket was created in Spiceworks to document the employee's reported email iss
 
 ---
 
-## 4. Troubleshooting Process
+## 2. Troubleshooting Process
 
 ### Step 1: Investigate the Failed Email
 
@@ -67,7 +53,7 @@ The issue was therefore associated with the large attachment rather than a gener
 
 ---
 
-## 5. Root Cause Analysis
+## 3. Root Cause Analysis
 
 The attachment was approximately 428 MB, exceeding the attachment size limit supported by the email configuration.
 
@@ -77,7 +63,7 @@ The successful transmission of a normal email demonstrated that Outlook's basic 
 
 **Root Cause:** The attachment exceeded the permitted email attachment size.
 
-## 6. Resolution
+## 4. Resolution
 
 ### Step 1: Use Google Drive
 
@@ -108,16 +94,16 @@ This approach avoids the traditional email attachment size restriction while all
 | Item | Result |
 |---|---|
 | Reported Issue | Unable to send an email with a large attachment |
-| Attachment Size | Approximately 450 MB |
+| Attachment Size | Approximately 428 MB |
 | Root Cause | Email attachment size limit |
 | Troubleshooting | Tested email sending without the attachment |
-| Resolution | Used Microsoft OneDrive to share the large file |
+| Resolution | Used Google Drive to share the large file |
 | Verification | Normal email sent successfully |
 | Final Status | Resolved |
 
-The email issue was addressed by providing Microsoft OneDrive as an alternative file-sharing method.
+The email issue was addressed by providing Google Drive as an alternative file-sharing method.
 
 The successful normal email test confirmed that Outlook's basic sending functionality was working.
 
-Using a OneDrive sharing link allowed the large attachment to be shared without including the file directly in the email.
+Using a Google Drive link allowed the large attachment to be shared without including the file directly in the email.
 
